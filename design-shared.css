@@ -1,0 +1,51 @@
+body {
+  text-align: center;
+  background-color: bisque;
+}
+
+h1 {
+  font-family: "Oswald";
+  color: #464444;
+  font-size: 30px;
+}
+
+ol {
+  margin: 0px auto 36px auto;
+}
+
+span {
+  margin: auto;
+  font-family: "Fira Sans";
+  color: #6d0653;
+  font-size: medium;
+  background-color: rgb(218, 108, 94);
+  padding: 24px;
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px rgb(105, 70, 66, 0.5);
+  display: inline-block;
+  margin: 20px 50px 0 50px;
+  width: 250px;
+  height: 170px;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+.Hari {
+  font-family: "Press Start 2P", sans-serif;
+  color: #1d1c1c;
+  margin-bottom: 20px;
+  font-size: large;
+}
+
+.invisible {
+  /* color: rgb(218, 108, 94); */
+  color: transparent;
+}
