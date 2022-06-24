@@ -4,17 +4,53 @@ body {
 }
 
 h1 {
-  font-family: "Oswald";
-  color: #464444;
+  font-family: "Oleo Script", sans-serif;
+  color: rgb(245, 243, 160);
   font-size: 30px;
+  padding-left: 10px;
 }
 
-ol {
-  margin: 0px auto 36px auto;
+header {
+  display: flex;
+  background-color: #464444;
+  margin-bottom: 20px;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  border-radius: 20px;
+  align-items: center;
+  padding: 15px 15px;
+  height: 60px;
+  box-shadow: 5px 5px 5px rgb(105, 70, 66, 0.5);
 }
 
-span {
-  margin: auto;
+#navigation a{
+  text-decoration: none;
+  font-family: "Oleo Script", sans-serif;
+  color: rgb(245, 243, 160);
+  font-size: 30px;
+  top: 0;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+}
+
+header li {
+  margin-left: 10px;
+}
+
+main ol {
+  margin: 10px auto 36px auto;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+main li {
+  list-style: none;
+  /* margin: auto; */
   font-family: "Fira Sans";
   color: #6d0653;
   font-size: medium;
@@ -23,18 +59,16 @@ span {
   border: 5px solid rgb(0, 0, 0);
   border-radius: 4px;
   box-shadow: 5px 5px 5px rgb(105, 70, 66, 0.5);
-  display: inline-block;
-  margin: 20px 50px 0 50px;
-  width: 250px;
+  width: 300px;
   height: 170px;
 }
 
-a {
+li a {
   color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
-a:hover {
+li a:hover {
   color: blue;
 }
 
