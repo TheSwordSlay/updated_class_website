@@ -15,8 +15,14 @@ div {
 div img {
     width: 200px;
     /* height: ; */
+    color: white;
 }
 
 ol {
     list-style: circle;
+    color: black;
+}
+
+div {
+    color: burlywood;
 }
