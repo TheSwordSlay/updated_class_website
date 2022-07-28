@@ -1,6 +1,7 @@
 body {
   text-align: center;
-  background-color: bisque;
+  background: linear-gradient(30deg, rgb(77, 77, 77), rgb(55, 55, 55));
+  color: rgb(68, 68, 68);
 }
 
 h1 {
@@ -12,16 +13,35 @@ h1 {
 
 header {
   display: flex;
-  background-color: #464444;
-  margin-bottom: 20px;
-  position: sticky;
-  top: 0;
+  background-color: #161616;
   justify-content: space-between;
-  border-radius: 20px;
   align-items: center;
-  padding: 15px 15px;
+  padding: 0 5%;
+  margin: 1rem auto;
+  margin-top: 0;
+  top: 0;
   height: 60px;
-  box-shadow: 5px 5px 5px rgb(105, 70, 66, 0.5);
+  position: static;
 }
 
+header nav ul li {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
 
+#navigation a {
+  text-decoration: none;
+  font-family: "Oleo Script", sans-serif;
+  color: rgb(245, 243, 160);
+  font-size: 30px;
+  top: 0;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+}
+
+header li {
+  margin-left: 10px;
+}
