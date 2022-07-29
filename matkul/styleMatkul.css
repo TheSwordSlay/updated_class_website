@@ -1,13 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: bisque;
+}
+
+.content {
+    background-color:darksalmon;
+    border-radius: 10px;
+    margin:50px;
+    padding: 20px;
+    display: inline-block;
+    
+}
+
+.mataKuliah {
+    background-color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
 p {
-    color: beige;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
 }
 
-a {
-    color: burlywood;
+.btn {
+    background-color:chocolate;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 30px;
 }
 
-img {
-    width: 400px;
-    height: 400px;
-    color: burlywood;
+.profile img {
+    width:75px;
+    border-radius: 50%;
 }

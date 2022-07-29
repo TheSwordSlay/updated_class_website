@@ -45,3 +45,68 @@ header ul {
 header li {
   margin-left: 10px;
 }
+
+.btn-mobile {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.btn-mobile span {
+  width: 100%;
+  height: 3px;
+  background-color: white;
+}
+
+#menu-mobile {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(29, 26, 27);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+#menu-mobile:target {
+  display: block;
+}
+
+#menu-mobile header {
+  height: 5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 5%;
+}
+
+#menu-mobile ul {
+  list-style: none;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 4rem 1rem;
+}
+
+#menu-mobile li {
+  margin: 1rem 0;
+}
+
+#menu-mobile a{
+  color: rgb(253, 239, 213);
+  font-size: 2rem;
+}
+
+@media (max-width: 48rem) {
+  #navigation {
+    display: none;
+  }
+}
+
+@media (min-width: 48rem) {
+  .btn-mobile {
+      display: none;
+  }
+}

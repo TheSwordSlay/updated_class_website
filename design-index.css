@@ -2,6 +2,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
+    width: 100%;
+    position: static;
   }
   
   main li {
@@ -39,4 +41,39 @@
     color: #1d1c1c;
     margin-bottom: 20px;
     font-size: large;
+  }
+
+  @media (max-width: 1030px) {
+    main ol {
+      grid-template-columns: 1fr 1fr;
+      margin-left: 0;
+      padding: 0;
+    }
+
+    main li{
+      width: 80%;
+    }
+
+    main ol li:nth-of-type(4) {
+      grid-column: 1 / span 1;
+  }
+
+  main ol li:nth-of-type(3) {
+    grid-column: 1 / span 1;
+  }
+
+  }
+
+  @media (max-width: 48rem) {
+    main ol {
+      grid-template-columns: 100%;
+    }
+
+    main li{
+      width: 80%;
+    }
+
+    main ol li:nth-of-type(4) {
+      grid-column: 1 / span 1;
+  }
   }
