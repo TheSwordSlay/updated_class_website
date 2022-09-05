@@ -32,9 +32,9 @@
     color: blue;
   }
   
-  main ol li:nth-of-type(4) {
+  /* main ol li:nth-of-type(4) {
     grid-column: 1 / span 2;
-}
+} */
 
   .Hari {
     font-family: "Press Start 2P", sans-serif;

@@ -99,13 +99,13 @@ header li {
   font-size: 2rem;
 }
 
-@media (max-width: 48rem) {
+@media (max-width: 60rem) {
   #navigation {
     display: none;
   }
 }
 
-@media (min-width: 48rem) {
+@media (min-width: 60rem) {
   .btn-mobile {
       display: none;
   }

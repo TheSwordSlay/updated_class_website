@@ -47,9 +47,9 @@ main ul a {
   transition: transform 0.5s ease-out;
 }
 
-main ul a:nth-of-type(4) {
+/* main ul a:nth-of-type(4) {
   grid-column: 1 / span 2;
-}
+} */
 
 main ul a:hover {
   transform: scale(1.1);
