@@ -43,6 +43,10 @@
     font-size: large;
   }
 
+  #kecilin {
+    font-size: small;
+  }
+
   @media (max-width: 1030px) {
     main ol {
       grid-template-columns: 1fr 1fr;

@@ -64,7 +64,7 @@ main ul p {
   padding: 1rem 1.5rem;
 }
 
-@media (max-width: 60rem) {
+@media (max-width: 1030px) {
   main ul {
     width: 100%;
     grid-template-columns: 100%;
