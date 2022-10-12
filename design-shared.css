@@ -2,6 +2,7 @@ body {
   text-align: center;
   background: linear-gradient(30deg, rgb(77, 77, 77), rgb(55, 55, 55));
   color: rgb(68, 68, 68);
+  margin: 0px;
 }
 
 h1 {
