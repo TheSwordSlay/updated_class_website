@@ -19,8 +19,8 @@
     border: 5px solid rgb(0, 0, 0);
     border-radius: 4px;
     box-shadow: 5px 5px 5px rgb(105, 70, 66, 0.5);
-    width: 15rem;
-    height: 10rem;
+    /* width: 15rem; */
+    height: 20rem;
   }
 
   li a {
