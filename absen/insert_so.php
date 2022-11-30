@@ -5,10 +5,10 @@ $kehadiran = $_POST['kehadiran'];
 
 
 if (!empty($nim) || !empty($nama) || !empty($kehadiran)) {
-    $host = "sql6.freesqldatabase.com";
-    $dbUsername = "sql6581687";
-    $dbPassword = "6rCnwrKn2b";
-    $dbname = "sql6581687";
+    $host = "localhost";
+    $dbUsername = "root";
+    $dbPassword = "";
+    $dbname = "kelasl3";
 
     $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);
 
