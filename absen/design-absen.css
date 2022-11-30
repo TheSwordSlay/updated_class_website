@@ -8,7 +8,8 @@ main ul {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px 20px;
   width: 100%;
-  margin: auto;
+  padding-left: 0;
+  /* padding: 0; */
   /* margin-right: 0; */
   padding-bottom: 30px;
   list-style: none;
@@ -25,8 +26,11 @@ main li {
   box-shadow: 1px 1px 4px rgb(0, 0, 0, 0.2);
   border-radius: 6px;
   overflow: hidden;
-  width: 20rem;
+  width: 100%;
   height: 10rem;
+  margin: auto;
+  padding-left: 0;
+  /* margin: 0; */
 }
 
 main ul li img {
@@ -41,10 +45,11 @@ main ul li p {
 }
 
 main ul a {
-  width: 15rem;
+  width: 85%;
   height: 10rem;
   text-decoration: none;
   transition: transform 0.5s ease-out;
+  margin: auto;
 }
 
 /* main ul a:nth-of-type(4) {
