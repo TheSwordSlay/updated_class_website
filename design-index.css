@@ -8,20 +8,15 @@
   }
   
   main li {
-    /* margin-left: 1rem;
-    margin-right: 1rem; */
     margin: auto;
     list-style: none;
     font-family: "Fira Sans";
     color: #6d0653;
     font-size: medium;
     background-color: rgb(255, 211, 15);
-    padding: 1.5rem;
-    padding-bottom: 4rem;
     border: 5px solid rgb(0, 0, 0);
     border-radius: 4px;
     box-shadow: 5px 5px 5px rgb(105, 70, 66, 0.5);
-    /* width: 15rem; */
     height: 20rem;
     width: 90%;
   }
@@ -39,15 +34,14 @@
     grid-column: 1 / span 2;
 } */
 
-  .Hari {
-    font-family: "Press Start 2P", sans-serif;
-    color: #1d1c1c;
-    margin-bottom: 20px;
-    font-size: large;
-  }
+.card-header {
+  font-family: "Press Start 2P", sans-serif;
+  color: #1d1c1c;
+  font-size: large;
+}
 
   .kecilin {
-    font-size: small;
+    font-size: 0.95rem;
   }
 
   @media (max-width: 1030px) {
