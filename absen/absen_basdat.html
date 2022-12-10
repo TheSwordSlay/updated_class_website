@@ -19,6 +19,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Oleo+Script:wght@700&family=Quicksand:wght@300;500;700&display=swap"
       rel="stylesheet"
     />
+    <script src="../absen/basdat.js" defer></script>
     <title>Absensi Basis Data</title>
 </head>
 <body>
@@ -58,7 +59,31 @@
             </div>
             <br>
             <div class="card-text">
-              <div class="mb-3 mx-4">
+              <form action="../absen/insert_basdat.php" method="POST" id="buka">
+                <div class="mb-3 mx-4">
+                  <label for="exampleInputEmail1" class="form-label">NIM</label>
+                  <input type="text" class="form-control" id="InputNim" name="nim" required>
+                </div>
+                <div class="mb-3 mx-4">
+                  <label for="exampleInputPassword1" class="form-label">Nama</label>
+                  <input type="text" class="form-control" id="InputNama" name="nama" required>
+                </div>
+                <div class="mb-1 mx-4">
+                    <label for="exampleInputEmail1" class="form-label">Kehadiran</label>
+                </div>
+                <div class="mb-3 mx-4">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="kehadiran" id="inlineRadio1" value="Hadir" required>
+                        <label class="form-check-label" for="inlineRadio1">Hadir</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="kehadiran" id="inlineRadio2" value="Izin">
+                        <label class="form-check-label" for="inlineRadio2">Izin</label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary mb-3 mx-4" style="background-color: rgb(255, 211, 15);">Submit</button>  
+              </form>
+              <div class="mb-3 mx-4" id="tutup">
                 <p>Absensi ini belum terbuka untuk sekarang</p>
               </div>
             </div>

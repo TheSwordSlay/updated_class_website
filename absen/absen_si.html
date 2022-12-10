@@ -19,6 +19,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Oleo+Script:wght@700&family=Quicksand:wght@300;500;700&display=swap"
       rel="stylesheet"
     />
+    <script src="../absen/si.js" defer></script>
     <title>Absensi Sistem Informasi</title>
 </head>
 <body>
@@ -59,7 +60,7 @@
             <br>
             <div class="card-text">
 
-                <form action="../absen/absen_sukses.html">
+                <form action="../absen/insert_si.php" method="POST" id="buka">
                     <div class="mb-3 mx-4">
                       <label for="exampleInputEmail1" class="form-label">NIM</label>
                       <input type="text" class="form-control" id="InputNim" name="nim" required>
@@ -83,6 +84,9 @@
                     </div>
                     <button type="submit" class="btn btn-primary mb-3 mx-4" style="background-color: rgb(255, 211, 15);">Submit</button>  
                 </form>
+                <div class="mb-3 mx-4" id="tutup">
+                  <p>Absensi ini belum terbuka untuk sekarang</p>
+                </div>
             </div>
         </div>
     </div>
