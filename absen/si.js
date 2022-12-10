@@ -6,7 +6,7 @@ let tutup = document.getElementById("tutup");
 const d = new Date();
 let day = weekday[d.getDay()];
 
-if (day == "Sabtu") {
+if (day == "Selasa") {
     tutup.innerHTML = "";
 } else {
     buka.innerHTML = "";
